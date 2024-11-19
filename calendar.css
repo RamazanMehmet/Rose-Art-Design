@@ -30,10 +30,28 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         
         }
+        
+         p {
+         font-size: 16px; /* Mobil cihazlar için ideal */
+         line-height: 1.6; /* Satır aralığı */
+           }
+
+           /* Tabletler için Ayarlar */
+        @media (min-width: 768px) {
+         p {
+          font-size: 18px; /* Tabletler için paragraflar */
+            }
+          }
+
+        /* Masaüstü için Ayarlar */
+       @media (min-width: 1024px) {
         p {
-            font-size: 20px;
-            
+       font-size: 20px; /* Masaüstü için paragraflar */
         }
+        }
+
+
+
         h1 {
             margin: 0;
             font-size: 24px;
