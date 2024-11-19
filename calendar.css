@@ -1,13 +1,26 @@
 
         /* Genel Stil Ayarları */
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
             margin: 0;
             padding: 0;
             background-color: #c1c1c1;
             color: #800020;
-            line-height: 1.6;
+            line-height: 1.5;
         }
+       @media (min-width: 768px) {
+       body {
+       font-size: 18px; /* Tabletler için biraz daha büyük */
+        }
+        }
+
+        /* Masaüstü için Ayarlar */
+        @media (min-width: 1024px) {
+          body {
+       font-size: 20px; /* Masaüstü için daha büyük yazı boyutu */
+       }
+       }
 
         header {
             background-color: #c1c1c1;
@@ -23,20 +36,39 @@
         }
         h1 {
             margin: 0;
-            font-size: 48px;
+            font-size: 24px;
             font-family: 'Playfair Display', serif;
-            font-weight: 700;
-            
+            font-weight: 700;     
         }
 
         h2 {
             margin-top: 10px;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 400;
             font-family: 'Playfair Display', serif;
             color: #800020;
             text-align: center;
         }
+       /* Tabletler için Başlıklar */
+       @media (min-width: 768px) {
+        h1 {
+       font-size: 28px;
+        }
+        h2 {
+       font-size: 26px;
+        } 
+        }
+
+     /* Masaüstü için Başlıklar */
+     @media (min-width: 1024px) {
+     h1 {
+      font-size: 32px;
+     }
+
+     h2 {
+    font-size: 30px;
+     }
+    }
         #slogan {
             margin: 0;
             font-size: 25px;
@@ -196,7 +228,6 @@
 
         footer {
             background-color: #c1c1c1;
-                font-size: 16px;
             color: black;
             text-align: center;
             padding: 1px 0;
