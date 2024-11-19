@@ -34,6 +34,7 @@
          p {
          font-size: 16px; /* Mobil cihazlar için ideal */
          line-height: 1.6; /* Satır aralığı */
+                 color: black;
            }
 
            /* Tabletler için Ayarlar */
