@@ -105,7 +105,7 @@
 
         @media (max-width: 768px) {
             .nav-menu {
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
             }
         }
@@ -122,6 +122,7 @@
             font-weight: 600;
             cursor: pointer;
             color: #800020;
+            text-decoration: none;
         }
 
         .nav-item:hover {
