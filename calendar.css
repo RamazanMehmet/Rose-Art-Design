@@ -6,7 +6,7 @@
             margin: 0;
             padding: 0;
             background-color: white;
-                color: black;
+            color: black;
             line-height: 1.5;
         }
        @media (min-width: 768px) {
@@ -23,18 +23,19 @@
        }
 
         header {
-            background-color: #c1c1c1;
-            color: #800020;
-            padding: 30px 0;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        background-color: #c1c1c1;
+        color: #800020;
+        padding: 30px 0;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         
         }
         
          p {
          font-size: 16px; /* Mobil cihazlar için ideal */
          line-height: 1.6; /* Satır aralığı */
-                 color: black;
+         color: black;
+         text-align:center;
            }
 
            /* Tabletler için Ayarlar */
@@ -51,11 +52,9 @@
         }
         }
 
-
-
         h1 {
             margin: 0;
-            font-size: 24px;
+            font-size: 35px;
             font-family: 'Playfair Display', serif;
             font-weight: 700;     
         }
@@ -68,20 +67,23 @@
             color: #800020;
             text-align: center;
         }
+
        /* Tabletler için Başlıklar */
        @media (min-width: 768px) {
         h1 {
-       font-size: 28px;
+       font-size: 50px;
         }
+
         h2 {
        font-size: 26px;
         } 
         }
 
      /* Masaüstü için Başlıklar */
+
      @media (min-width: 1024px) {
      h1 {
-      font-size: 32px;
+      font-size: 50px;
      }
 
      h2 {
