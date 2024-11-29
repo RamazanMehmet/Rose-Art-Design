@@ -1,260 +1,315 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+}
 
-        /* Genel Stil Ayarları */
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            color: black;
-            line-height: 1.5;
-        }
-       @media (min-width: 768px) {
-       body {
-       font-size: 18px; /* Tabletler için biraz daha büyük */
-        }
-        }
-
-        /* Masaüstü için Ayarlar */
-        @media (min-width: 1024px) {
-          body {
-       font-size: 20px; /* Masaüstü için daha büyük yazı boyutu */
-       }
-       }
-
-        header {
-        background-color: #c1c1c1;
-        color: #800020;
-        padding: 30px 0;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        
-        }
-        
-         p {
-         font-size: 16px; /* Mobil cihazlar için ideal */
-         line-height: 1.6; /* Satır aralığı */
-         color: black;
-         text-align:center;
-           }
-
-           /* Tabletler için Ayarlar */
-        @media (min-width: 768px) {
-         p {
-          font-size: 18px; /* Tabletler için paragraflar */
-            }
-          }
-
-        /* Masaüstü için Ayarlar */
-       @media (min-width: 1024px) {
-        p {
-       font-size: 20px; /* Masaüstü için paragraflar */
-        }
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 35px;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;     
-        }
-
-        h2 {
-            margin-top: 10px;
-            font-size: 22px;
-            font-weight: 400;
-            font-family: 'Playfair Display', serif;
-            color: #800020;
-            text-align: center;
-        }
-
-       /* Tabletler için Başlıklar */
-       @media (min-width: 768px) {
-        h1 {
-       font-size: 50px;
-        }
-
-        h2 {
-       font-size: 26px;
-        } 
-        }
-
-     /* Masaüstü için Başlıklar */
-
-     @media (min-width: 1024px) {
-     h1 {
-      font-size: 50px;
-     }
-
-     h2 {
-    font-size: 30px;
-     }
+@media (min-width: 768px) {
+    body {
+        font-size: 18px; /* Tabletler için biraz daha büyük */
     }
-        #slogan {
-            margin: 0;
-            font-size: 25px;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: 700;
-        }
+}
 
-        .nav-menu {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-            flex-wrap: wrap;
-            flex-direction: row; /* Yana yan durmasını sağlamak için */
-        }
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px; /* Masaüstü için daha büyük yazı boyutu */
+    }
+}
 
-        @media (max-width: 768px) {
-            .nav-menu {
-                flex-direction: row;
-                align-items: center;
-            }
-        }
+/* Header */
+header {
+    background-color: #cdcdcd;
+    color: #800020;
+    padding: 5px 0;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Yatayda ortalar */
+}
 
-        .nav-item {
-            background: white;
-            border: 2px solid #800020;
-            border-radius: 10px;
-            margin: 0 10px;
-            padding: 10px 20px;
-            text-align: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px #c1c1c1;
-            font-weight: 600;
-            cursor: pointer;
-            color: #800020;
-            text-decoration: none;
-        }
+/* Logo Konteyner */
+.logo-container {
+    margin-right: auto; /* Logoyu sol tarafa hizalar */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
 
-        .nav-item:hover {
-            background: #800020;
-            color: white;
-        }
+.logo-container img {
+    height: auto;
+    width: 100%;
+    max-width: 200px; /* Logoyu uygun boyutta tutar */
+}
 
-        .content {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 30px;
-            background: #c1c1c1;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(136, 81, 81, 0.1);
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-    
-        }
+@media(max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
-        .full-width-button {
-            display: block;
-            width: 50%;
-            padding: 15px;
-            background-color: #800020;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 20px;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            margin: 20px auto;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
+/* Başlıklar */
+h1 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
 
-        .full-width-button:hover {
-            background-color: #800020;
-            transform: translateY(-2px);
-        }
+@media (min-width: 768px) {
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+}
 
-        .slider {
-            position: relative;
-            margin: 40px 0;
-            overflow: hidden;
-            border-radius: 10px;
-        }
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+}
 
-        .slides {
-            display: flex;
-            transition: transform 0.5s ease;
-            width: 100%;
-        }
+h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: #800020;
+    text-align: center;
+    line-height: 1.4;
+}
 
-        .slide {
-            min-width: 100%;
-            border-radius: 10px;
-        }
+@media (min-width: 768px) {
+    h2 {
+        font-size: 26px;
+    }
+}
 
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 30px;
+    }
+}
 
-        .nav {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            transform: translateY(-50%);
-        }
+/* Paragraflar */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+}
 
-        .nav button {
-            background-color: rgba(255, 255, 255, 0.8);
-            color: #333;
-            border: none;
-            padding: 10px 15px;
-            cursor: pointer;
-            border-radius: 50%;
-            font-size: 20px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-        }
+@media (min-width: 768px) {
+    p {
+        font-size: 18px; /* Tabletler için paragraflar */
+    }
+}
 
-        .nav button:hover {
-            background-color: rgba(255, 255, 255, 1);
-            transform: scale(1.1);
-        }
+@media (min-width: 1024px) {
+    p {
+        font-size: 20px; /* Masaüstü için paragraflar */
+    }
+}
 
-        .about-section,
-        .contact-section {
-            background-color: #c1c1c1;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
+/* Menü */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
-        .about-section h2,
-        .contact-section h2 {
-            color: #800020;
-            font-size: 28px;
-            font-weight: 500;
-        }
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column; /* Menü öğelerini alt alta hizalar */
+        align-items: center;
+        gap: 10px;
+    }
+}
 
-        .contact-info p {
-            font-size: 18px;
-            color: #555;
-        }
+.nav-item {
+    background: white;
+    border: 2px solid #800020;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px #c1c1c1;
+    font-weight: 600;
+    cursor: pointer;
+    color: #800020;
+    text-decoration: none;
+}
 
-        .social-icons a {
-            margin-right: 15px;
-            color: inherit;
-            transition: color 0.3s ease;
-        }
+.nav-item:hover {
+    background: #800020;
+    color: white;
+}
 
-        .social-icons a:hover {
-            color: #c72c41;
-        }
+/* İçerik Alanı */
+.content {
+    max-width: 100%;
+    padding: 15px;
+    background: #c1c1c1;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(136, 81, 81, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
 
-        footer {
-            background-color: #c1c1c1;
-            color: black;
-            text-align: center;
-            padding: 1px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
-        }
+@media (min-width: 768px) {
+    .content {
+        padding: 30px;
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        padding: 40px;
+        max-width: 80%;
+    }
+}
+
+/* Buton */
+.full-width-button {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.full-width-button:hover {
+    background-color: #800020;
+    transform: translateY(-2px);
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    margin: 40px 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+/* Hakkımızda ve İletişim Bölümleri */
+.about-section,
+.contact-section {
+    background-color: #c1c1c1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.about-section h2,
+.contact-section h2 {
+    color: #800020;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #c72c41;
+}
+
+/* Footer */
+footer {
+    background-color: #c1c1c1;
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 10px; /* İkonlar arasındaki boşluğu arttır */
+    }
+}
