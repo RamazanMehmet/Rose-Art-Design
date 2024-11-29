@@ -31,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; /* Yatayda ortalar */
+    border-radius: 10px;
 }
 
 /* Logo Konteyner */
@@ -302,6 +303,7 @@ footer {
     bottom: 0;
     width: 100%;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
 }
 
 @media (max-width: 768px) {
