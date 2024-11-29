@@ -1,5 +1,6 @@
 /* Genel Stil Ayarları */
 body {
+<<<<<<< HEAD
     font-family: Arial, sans-serif; /* Genel yazı tipi */
     font-size: 16px; /* Varsayılan yazı boyutu */
     margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
@@ -7,6 +8,15 @@ body {
     background-color: #9E2A2F; /* Arka plan rengi beyaz */
     color: black; /* Yazı rengi siyah */
     line-height: 1.5; /* Satır yüksekliği */
+=======
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #800020;
+    color: black;
+    line-height: 1.5;
+>>>>>>> ef77c3bdb8a9de0595801e5e8ec63340cac851f1
 }
 
 /* Tabletler ve daha büyük cihazlar için font boyutunu artıran medya sorgusu */
@@ -33,7 +43,11 @@ header {
     display: flex; /* Flexbox ile hizalama */
     align-items: center; /* Yatayda ortalama */
     justify-content: center; /* Yatayda ortalar */
+<<<<<<< HEAD
     border-radius: 15px; /* Köşe yuvarlama */
+=======
+    border-radius: 10px;
+>>>>>>> ef77c3bdb8a9de0595801e5e8ec63340cac851f1
 }
 
 /* Logo Konteyneri */
@@ -314,6 +328,7 @@ img {
 
 /* Footer */
 footer {
+<<<<<<< HEAD
     background-color: #cdcdcd; /* Arka plan rengi */
     color: black; /* Yazı rengi */
     text-align: center; /* Metni ortalar */
@@ -322,6 +337,17 @@ footer {
     border-radius: 15px; /* Köşe yuvarlama */
     margin: 20px auto 10px auto; /* Sayfanın ortasında yer alır */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Gölge */
+=======
+    background-color: #cdcdcd;
+    color: black;
+    text-align: center;
+    padding: 1px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+>>>>>>> ef77c3bdb8a9de0595801e5e8ec63340cac851f1
 }
 
 /* Mobil cihazlar için footer düzeni */
