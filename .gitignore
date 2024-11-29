@@ -1,0 +1,13 @@
+# Sistem dosyalarını yoksay
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Diziler
+node_modules/
+build/
+dist/
+.vscode/
+.idea/
