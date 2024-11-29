@@ -147,7 +147,7 @@ p {
     padding: 10px 20px;
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px #c1c1c1;
+    box-shadow: 0 4px 15px #cdcdcd;
     font-weight: 600;
     cursor: pointer;
     color: #800020;
@@ -163,7 +163,7 @@ p {
 .content {
     max-width: 100%;
     padding: 15px;
-    background: #c1c1c1;
+    background: #cdcdcd;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(136, 81, 81, 0.1);
     display: flex;
@@ -294,7 +294,7 @@ img {
 
 /* Footer */
 footer {
-    background-color: #c1c1c1;
+    background-color: #cdcdcd;
     color: black;
     text-align: center;
     padding: 1px 0;
