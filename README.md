@@ -34,5 +34,5 @@ Gelecekte projeye aşağıdaki özellikler eklenebilir:
 Bu proje şu anda yalnızca **takvim satışına açık** bir şekilde aktif olarak kullanılmaktadır. Gelecekte genişletilmesi planlanmaktadır. Fikirleriniz veya katkılarınız için lütfen iletişime geçin!
 
 ---
-
+Bu proje ve içeriği telif hakkıyla korunmaktadır. Görsellerin ve tasarımların izinsiz kullanılması yasaktır.
 **Rose Design** – Zarafetten ilham alan tasarımlar!
