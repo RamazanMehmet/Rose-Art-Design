@@ -4,7 +4,7 @@ body {
     font-size: 16px; /* Varsayılan yazı boyutu */
     margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
     padding: 0; /* İçerik alanındaki padding'i sıfırlar */
-    background-color:rgb(245, 236, 239); /* Arka plan rengi beyaz */
+    background-color: #800020; /* Arka plan rengi beyaz */
     color: black; /* Yazı rengi siyah */
     line-height: 1.5; /* Satır yüksekliği */
 }
