@@ -35,7 +35,7 @@ Gelecekte projeye eklenmesi planlanan özellikler:
 - Kendi ödeme altyapısının geliştirilmesi.
 
 🔗 Projemi Görüntüle
-🔗 Web Sitem: [https://lnkd.in/dJDBRrVy] 
-🔗 LinkedIn: [https://www.linkedin.com/in/ramazan-mehmet-bozdemir-41545530b/]
+🔗 Web Sitem: [https://lnkd.in/dJDBRrVy]   
+🔗 LinkedIn: [https://www.linkedin.com/in/ramazan-mehmet-bozdemir-41545530b/]  
 
 Her gün bir adım daha ileri! 💪
