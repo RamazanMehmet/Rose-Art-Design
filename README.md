@@ -8,7 +8,8 @@ Bu proje, **RoseArtDesign** markam tarafından oluşturulan, **Hicri** ve **Mila
 JavaScript, İleri Düzey CSS ve Bootstrap teknolojileri üzerinde çalışıyorum. 
 
 ## 🔄 Güncelleme:
-Şimdi ise Bootstrap ile sayfamı responsive hale getirdim, yani site artık tüm cihazlarda (mobil, tablet, masaüstü) uyumlu şekilde görüntülenebiliyor.  
+Şimdi ise Bootstrap ile sayfamı responsive hale getirdim, yani site artık tüm cihazlarda   
+(mobil, tablet, masaüstü) uyumlu şekilde görüntülenebiliyor.  
 Şu anda ise JavaScript ile sayfama etkileşim eklemeyi öğreniyorum.   
 Bu öğrendiklerimi aynı projede uygulayarak adım adım geliştirmeyi hedefliyorum. İlerledikçe gelişmeleri paylaşacağım.
 
