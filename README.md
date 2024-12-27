@@ -12,12 +12,6 @@ JavaScript, İleri Düzey CSS ve Bootstrap teknolojileri üzerinde çalışıyor
 Şu anda ise JavaScript ile sayfama etkileşim eklemeyi öğreniyorum.   
 Bu öğrendiklerimi aynı projede uygulayarak adım adım geliştirmeyi hedefliyorum. İlerledikçe gelişmeleri paylaşacağım.
 
-## Özellikler
-
-- **Zarif Takvim**: Hem Miladi hem de Hicri tarihleri içeren, özel günler ve anlamlı sözlerle zenginleştirilmiş takvimler.
-- **Renk Teması**: Bordo ve gri renklerin uyumuyla sade ve şık bir arayüz.
-- **Güvenli Ödeme**: Satış işlemleri Shopier üzerinden güvenli ve kolay yapılır.
-
 ## Geliştirme
 
 Projede kullanılan teknolojiler:
