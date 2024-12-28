@@ -1,0 +1,18 @@
+/* Progress bar */
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 10;    
+}
+.social-link i {
+  font-size: 25px;
+  transition: font-size 0.3s ease; /* Yavaş geçiş efekti */
+}
+
+.social-link:hover i {
+  font-size: 30px; /* Hover durumunda ikon boyutunu büyütme */
+}
+
