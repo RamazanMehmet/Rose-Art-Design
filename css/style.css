@@ -15,22 +15,3 @@
 .social-link:hover i {
   font-size: 30px; /* Hover durumunda ikon boyutunu büyütme */
 }
-/* Grid Container */
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dinamik genişlik */
-  gap: 20px; /* Öğeler arası boşluk */
-}
-
-/* Grid Öğesi */
-.grid-item {
-  position: relative;
-  width: 100%; /* Öğenin genişliği container'a göre belirlenir */
-  height: auto; /* Yükseklik orantılı olarak ayarlanır */
-}
-
-/* Resim için */
-.grid-item img {
-  width: 100%; /* Resim, grid öğesinin genişliğine uyum sağlar */
-  height: auto; /* Yükseklik, orantılı olarak ayarlanır */
-}
