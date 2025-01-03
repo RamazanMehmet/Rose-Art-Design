@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)", 
+      "destination": "https://roseartdesign.tr/$1", 
+      "permanent": true
+    }
+  ]
+}
