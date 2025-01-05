@@ -11,7 +11,3 @@
   font-size: 25px;
   transition: font-size 0.3s ease; /* Yavaş geçiş efekti */
 }
-
-.social-link:hover i {
-  font-size: 30px; /* Hover durumunda ikon boyutunu büyütme */
-}
