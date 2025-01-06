@@ -9,5 +9,5 @@
 }
 .social-link i {
   font-size: 25px;
-  transition: font-size 0.3s ease; /* Yavaş geçiş efekti */
+  transition: font-size 50s ease; /* Yavaş geçiş efekti */
 }
